@@ -93,6 +93,9 @@
           ruff = {
             enable = true;
           };
+          gopls = {
+            enable = true;
+          };
 
           rust_analyzer = {
             enable = true;
