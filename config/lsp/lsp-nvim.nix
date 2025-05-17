@@ -13,7 +13,7 @@
         capabilities = "offsetEncoding = 'utf-16'";
         servers = {
           clangd = {
-            enable = true;
+            enable = false;
           };
           lua_ls = {
             enable = true;
@@ -82,10 +82,10 @@
             };
           };
           eslint = {
-            enable = true;
+            enable = false;
           };
           pyright = {
-            enable = true;
+            enable = false;
           };
           ruff = {
             enable = true;

@@ -36,7 +36,7 @@
   config = lib.mkIf config.utils.enable {
     better-escape.enable = lib.mkDefault true;
     cloak.enable = lib.mkDefault true;
-    harpoon.enable = lib.mkDefault true;
+    harpoon.enable = lib.mkDefault false;
     markdown-preview.enable = lib.mkDefault false;
     mini.enable = lib.mkDefault true;
     neocord.enable = lib.mkDefault true;
