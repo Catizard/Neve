@@ -81,6 +81,9 @@
               };
             };
           };
+          volar = {
+            enable = true;
+          };
           eslint = {
             enable = false;
           };

@@ -22,7 +22,7 @@
     alpha.enable = lib.mkDefault true;
     barbecue.enable = lib.mkDefault true;
     dressing-nvim.enable = lib.mkDefault true;
-    indent-blankline.enable = lib.mkDefault true;
+    indent-blankline.enable = lib.mkDefault false;
     noice.enable = lib.mkDefault false;
     notify.enable = lib.mkDefault true;
     nui.enable = lib.mkDefault true;

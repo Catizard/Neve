@@ -35,7 +35,7 @@
   };
   config = lib.mkIf config.utils.enable {
     better-escape.enable = lib.mkDefault true;
-    cloak.enable = lib.mkDefault true;
+    cloak.enable = lib.mkDefault false;
     harpoon.enable = lib.mkDefault false;
     markdown-preview.enable = lib.mkDefault false;
     mini.enable = lib.mkDefault true;
@@ -54,7 +54,7 @@
     todo-comments.enable = lib.mkDefault true;
     ultimate-autopair.enable = lib.mkDefault true;
     undotree.enable = lib.mkDefault true;
-    wakatime.enable = lib.mkDefault true;
+    wakatime.enable = lib.mkDefault false;
     which-key.enable = lib.mkDefault true;
     wilder.enable = lib.mkDefault false;
   };
