@@ -17,7 +17,7 @@
       tabstop = 2;
       softtabstop = 0;
       showtabline = 2;
-      noexpandtab = true;
+      expandtab = false;
       smarttab = true;
       shiftwidth = 0;
 
