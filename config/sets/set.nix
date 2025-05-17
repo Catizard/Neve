@@ -15,23 +15,18 @@
 
       # Set tabs to 2 spaces
       tabstop = 2;
-      softtabstop = 2;
+      softtabstop = 0;
       showtabline = 2;
-      expandtab = true;
-
-      # Enable auto indenting and set it to spaces
-      smartindent = true;
-      shiftwidth = 2;
-
-      # Enable smart indenting (see https://stackoverflow.com/questions/1204149/smart-wrap-in-vim)
-      breakindent = true;
+      noexpandtab = true;
+      smarttab = true;
+      shiftwidth = 0;
 
       # Enable incremental searching
       hlsearch = true;
       incsearch = true;
 
       # Enable text wrap
-      wrap = true;
+      wrap = false;
 
       # Better splitting
       splitbelow = true;
@@ -83,9 +78,6 @@
       # Always keep 8 lines above/below cursor unless at start/end of file
       scrolloff = 8;
 
-      # Place a column line
-      colorcolumn = "80";
-
       # Reduce which-key timeout 
       timeoutlen = 200;
 
@@ -103,8 +95,7 @@
         "sm:block-blinkwait175-blinkoff150-blinkon175" # Showmatch: block cursor with specific blinking settings
       ];
 
-      # Enable chars list
-      list = true; # Show invisible characters (tabs, eol, ...)
+      list = false; # Don't show invisible characters (tabs, eol, ...)
       listchars = "eol:↲,tab:|->,lead:·,space: ,trail:•,extends:→,precedes:←,nbsp:␣";
 
       # More space in the neovim command line for displaying messages

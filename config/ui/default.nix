@@ -20,7 +20,7 @@
   };
   config = lib.mkIf config.ui.enable {
     alpha.enable = lib.mkDefault true;
-    barbecue.enable = lib.mkDefault true;
+    barbecue.enable = lib.mkDefault false;
     dressing-nvim.enable = lib.mkDefault true;
     indent-blankline.enable = lib.mkDefault false;
     noice.enable = lib.mkDefault false;

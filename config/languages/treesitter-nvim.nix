@@ -113,7 +113,7 @@
     };
 
     plugins.treesitter-context = {
-      enable = true;
+      enable = false;
     };
 
     plugins.ts-context-commentstring = {
