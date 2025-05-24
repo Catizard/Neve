@@ -19,7 +19,7 @@
 			{
 				mode = "n";
 				key = "<C-/>";
-				action = "ToggleTerm";
+				action = "<cmd>ToggleTerm<CR>";
 				options.desc = "Toggle Terminal";
 			}
 
