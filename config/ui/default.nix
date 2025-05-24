@@ -13,6 +13,7 @@
     ./nui.nix
     ./notify.nix
     ./web-devicons.nix
+		./toggleterm.nix
   ];
 
   options = {
@@ -27,5 +28,6 @@
     notify.enable = lib.mkDefault true;
     nui.enable = lib.mkDefault true;
     web-devicons.enable = lib.mkDefault true;
+		toggleterm.enable = lib.mkDefault true;
   };
 }
