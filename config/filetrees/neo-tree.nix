@@ -3,6 +3,7 @@
   options = {
     neo-tree.enable = lib.mkEnableOption "Enable neo-tree module";
   };
+
   config = lib.mkIf config.neo-tree.enable {
 
     plugins.neo-tree = {
@@ -13,6 +14,10 @@
       enableRefreshOnWrite = true;
       closeIfLastWindow = true;
       popupBorderStyle = "rounded"; # Type: null or one of “NC”, “double”, “none”, “rounded”, “shadow”, “single”, “solid” or raw lua code
+			filesystem = {
+				bindToCwd = false;
+				hijackNetrwBehavior = "open_default";
+			};
       buffers = {
         bindToCwd = false;
         followCurrentFile = {
