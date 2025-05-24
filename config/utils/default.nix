@@ -45,7 +45,7 @@
     colorizer.enable = lib.mkDefault true;
     nvim-surround.enable = lib.mkDefault true;
     nvterm.enable = lib.mkDefault true;
-    oil.enable = lib.mkDefault true;
+    oil.enable = lib.mkDefault false;
     persistence.enable = lib.mkDefault true;
     plenary.enable = lib.mkDefault true;
     project-nvim.enable = lib.mkDefault true;

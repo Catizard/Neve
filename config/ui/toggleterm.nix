@@ -11,15 +11,19 @@
 				direction = "float";
 				float_opts = {
 					border = "curved";
+					open_mapping = "<C-/>";
 				};
 			};
 		};
 
 		keymaps = [
 			{
-				mode = "n";
+				mode = [
+					"n"
+					"t"
+				];
 				key = "<C-/>";
-				action = "<cmd>ToggleTerm<CR>";
+				action = "<cmd>ToggleTerm<cr>";
 				options.desc = "Toggle Terminal";
 			}
 
