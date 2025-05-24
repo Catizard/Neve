@@ -27,7 +27,7 @@
 			{
 				mode = "n";
 				key = "<leader>gg";
-				action = "<cmd>lua require('toggleterm.terminal').Terminal:new({ cmd='lazygit', hiddren = true }):toggle<cr>";
+				action = "<cmd>lua require('toggleterm.terminal').Terminal:new({ cmd = 'lazygit', hidden = true }):toggle()<cr>";
 			}
 		];
 	};
