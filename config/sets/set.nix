@@ -25,8 +25,11 @@
       hlsearch = true;
       incsearch = true;
 
-      # Enable text wrap
+      # Disable text wrap
       wrap = false;
+
+			# No autochdir
+			autochdir = false;
 
       # Better splitting
       splitbelow = true;
